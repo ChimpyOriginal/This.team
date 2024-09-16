@@ -154,7 +154,7 @@ namespace This.team
             {
                 if (alumnosInscritos.Count == 0)
                 {
-                    return $"Lista vacía";
+                    return $"No hay ningún alumno inscrito en el curso.";
                 }
                 //Recorrer e imprimir la lista de alumnos inscritos en el curso.
                 string resultado = "";
